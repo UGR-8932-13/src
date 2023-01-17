@@ -1,0 +1,53 @@
+
+.logo{width:10%;height:5%}
+.banner{width:20px;height:10px;}
+.contents{border:2px;
+border-radius: 5px;
+text-align: center;
+background-color: dodgerblue; color: white; padding: 14px 25px;
+text-align: center;
+text-decoration: none; display: inline-block; margin-top: 15px}
+a.contents:hover{background-color:blueviolet }
+a:active{cursor: progress;}
+footer{text-align-last: center; padding: 10px; border-top: 2px solid black; }
+.homepage{border: medium solid black; margin: 20px; text-align: center; padding: 50px;}
+section h1{display: inline-block;}
+h1{font-size: 100px; text-shadow: 1px 1px blue, 0 0 5px red;}
+.heading{display: flex; margin-left: 20px; justify-content: space-evenly}
+footer a:hover{color: blueviolet;}
+
+#search {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 60%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#content {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#content li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  margin-left: 205px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  width: 63%;
+  margin-bottom: 5px;
+
+}
+
+#content li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
