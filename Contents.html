@@ -3,15 +3,16 @@
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starwars lore</title>
+    <link rel="stylesheet" type="text/css" href="contents.css">
   </head>
   <body>
-<section>
-  <img src="https://thumbs.dreamstime.com/z/london-uk-december-th-close-up-star-wars-logo-product-item-star-wars-franchise-owned-disney-th-december-107075073.jpg" alt="starwars logo">
+<section class="heading">
+  <img src="https://thumbs.dreamstime.com/z/london-uk-december-th-close-up-star-wars-logo-product-item-star-wars-franchise-owned-disney-th-december-107075073.jpg" alt="starwars logo" class="logo">
     <h1>Star wars lore.inc</h1>
     <form><label for="search">Search:</label><br>
-<input type="text" id="search" name="Search" placeholder="Search here.."size="15" maxlength="30">
- <button onclick="document.location=''">Search</button> 
-
+<input type="text" id="search" name="Search" onkeyup="myFunction()" placeholder="Search here.."size="15" maxlength="30">
+ <button onclick="click()">Search</button> 
+ <script src="home.js"></script>
 
 </p>
 </form>
@@ -25,42 +26,34 @@
 <section>
 <h2>Contents list</h2>
 <dl>
-<section>
+<section class="video">
 <dt><b>Trailers and other videos</b></dt>
 <!-- I couldn't find any transcripts for the youtube videos but they have captions-->
 <dd>-Shows you the various trailers and other videos related to the star wars franchise from youtube.
 </dd>
 
-<iframe width="420" height="345" src="https://www.youtube.com/embed/bD7bpG-zDJQ">
+<iframe width="275" height="345" src="https://www.youtube.com/embed/bD7bpG-zDJQ">
 </iframe>
 
-<iframe width="420" height="345" src="https://www.youtube.com/embed/gYbW1F_c9eM">
+<iframe width="275" height="345" src="https://www.youtube.com/embed/gYbW1F_c9eM">
 </iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/5UnjrG_N8hU">
+<iframe width="275" height="345" src="https://www.youtube.com/embed/5UnjrG_N8hU">
 </iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/odnRRZKhNPk">
+<iframe width="275" height="345" src="https://www.youtube.com/embed/odnRRZKhNPk">
 </iframe>
 <a href="Videos.html">get more videos</a>
 </section>
-<section>
+<section class="image">
 <dt><b>Images</b></dt>
 <dd>-Shows you the various posters and wallpapers of you favotite movie and tv show characters.
 </dd>
-<img  src="https://getwallpapers.com/wallpaper/full/9/a/0/659978.jpg" alt="starwars dark side and light side">
-<p><b>Dark side vs light side</b>
-</p> 
- <img src="https://getwallpapers.com/wallpaper/full/5/b/1/659925.jpg" alt="darth vader holding his red lightsaber">
- <p><b>Darth vader</b>
-</p>
- <img src="https://getwallpapers.com/wallpaper/full/f/d/9/660241.jpg" alt="storm trooper turning into dust">
- <p><b>Storm trooper</b>
- </p>
- <img src="https://getwallpapers.com/wallpaper/full/2/6/8/443241.jpg" alt="anakin skywalker vs obi-wan kenobi">
- <p><b>Anakin vs Obi-Wan</b>
-</p>
+ <img  src="https://getwallpapers.com/wallpaper/full/9/a/0/659978.jpg" alt="starwars dark side and light side";>
+ <img src="https://getwallpapers.com/wallpaper/full/5/b/1/659925.jpg" alt="darth vader holding his red lightsaber"; >
+ <img src="https://getwallpapers.com/wallpaper/full/f/d/9/660241.jpg" alt="storm trooper turning into dust";>
+ <img src="https://getwallpapers.com/wallpaper/full/2/6/8/443241.jpg" alt="anakin skywalker vs obi-wan kenobi";>
 <a href="Images.html">get more images</a>
 </section>
-<section>
+<section class="audio">
 <dt><b>Audios</b></dt>
 <!-- I couldn't find any transcripts for orchestral songs and trap remixes-->
 <dd>-Lets you listen to all of your favorite theme songs from the franchise.
@@ -68,42 +61,40 @@
 <audio controls>
 <source src="star-wars-main-theme-full.mp3" type="audio/mpeg">
 </audio>
-<p><b>Star-wars-main-theme-full</b></p>
 
 <audio controls>
 <source src="star-wars-official-trap-remix-imperial-march-official-darth-vaders-theme.mp3" type="audio/mpeg">
 </audio>
-<p><b>Star-wars-imperial march(trap remix)</b></p>
 
 
 <audio controls>
 <source src="main-theme.mp3" type="audio/mpeg">
 </audio>
-<p><b>Star-wars the mandalorian theme song</b></p>
+
 
 
 <audio controls>
 <source src="the-force-theme-far-out-remix.mp3" type="audio/mpeg">
 </audio>
-<p><b>The-force-theme-far-out-remix</b></p>
+
 
 <audio controls>
 <source src="across-the-stars-love-theme.mp3" type="audio/mpeg">
 </audio>
-<p><b>Across-the-stars-love-theme</b></p>
+
 
 
 
 <audio controls>
 <source src="anakins-betrayal-star-wars-soundtrack-hq.mp3" type="audio/mpeg">
 </audio>
-<p><b>Anakins-betrayal-star-wars-soundtrack</b></p>
+
 
 <a href="Audios.html">get more audio</a>
 </section>
 <section>
 <dt><b><a href="Character info.html">Characters info</a></b></dt>
-<dd>-Shows you the various trailers and other videos related to the star wars franchise</dd>
+<dd>-Shows you the various trailers and other videos related to the star wars franchise. Just press the "Characters info" title.</dd>
 </section>
 </dl>
 
