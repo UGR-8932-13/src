@@ -1,0 +1,33 @@
+.logo{width:10%;height:5%}
+a:active{cursor: progress;}
+footer{text-align-last: center; padding: 10px; border-top: 2px solid black; margin-top: 10px}
+h1{font-size: 90px; text-shadow: 1px 1px blue, 0 0 5px red;}
+
+.heading{display: flex; justify-content: space-evenly}
+nav{margin:15px 0px; background: gray; box-sizing: border-box; position: sticky; top: 0}
+ul{display: flex;}
+nav ul{ list-style:none; display: flex; justify-content:space-evenly; }
+nav ul li{
+    display: flex;
+  }
+@media (max-width: 700px){
+  ul{
+    text-align: center;
+    flex-direction: column;
+  }
+  nav ul li{
+    display: block;  flex-direction: column;
+
+  }
+}
+nav ul li a{ font-size:20px; padding: 20px; color: black; text-decoration: none;  }
+nav ul li a:hover{text-shadow: 1px 1px blue, 0 0 5px red; background: lightgray;}
+
+dt b a{text-decoration: none; color: black;}
+dt b a:hover{text-shadow: 1px 1px blue, 0 0 5px red;}
+.video a:hover{text-shadow: 1px 1px blue, 0 0 5px red;}
+.image a:hover{text-shadow: 1px 1px blue, 0 0 5px red;}
+.audio a:hover{text-shadow: 1px 1px blue, 0 0 5px red;}
+.image img {width: 275px; height: 200px;margin: 2px}
+.audio audio {width: 190px; height: auto;}
+footer a:hover{color: blueviolet; background: white;}
