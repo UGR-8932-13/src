@@ -3,15 +3,18 @@
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starwars lore</title>
+<link rel="stylesheet" type="text/css" href="aboutus.css">
   </head>
   <body>
-  <section>
-  <img src="https://thumbs.dreamstime.com/z/london-uk-december-th-close-up-star-wars-logo-product-item-star-wars-franchise-owned-disney-th-december-107075073.jpg" alt="starwars logo">
+  <section class="heading">
+  <img src="https://thumbs.dreamstime.com/z/london-uk-december-th-close-up-star-wars-logo-product-item-star-wars-franchise-owned-disney-th-december-107075073.jpg" alt="starwars logo" class="logo">
     <h1>Star wars lore.inc</h1>
     <form>
     <label for="search">Search:</label><br>
-<input type="text" id="search" name="Search" placeholder="Search here.."size="15" maxlength="30">
- <button onclick="document.location=''">Search</button> 
+<input type="text" id="search" name="Search" onkeyup="myFunction()" placeholder="Search here.."size="15" maxlength="30">
+ <button onclick="click()">Search</button> 
+ <script src="home.js"></script>
+
 </p>
 </form>
     </section>
